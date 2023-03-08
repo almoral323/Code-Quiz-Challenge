@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!--<script defer src="./assets/script.js"></script>-->
+  </head>
+  <body>
+    <!--Quiz Timer-->
+    <div id="timer">Time: </div>
+    <!--The view highscore link-->
+    <div class="view-highscores">View High Scores</div>
+    <!--Question and answers layout-->
+    <div id="question-container">
+         <div id="question">Question</div>
+         <div id="answer-buttons">
+            <button id="btn-a" class="ans-btn btn" onclick="checkAnswer(event)">Answer A</button>
+            <button id="btn-b" class="ans-btn btn" onclick="checkAnswer(event)">Answer B</button>
+            <button id="btn-c" class="ans-btn btn" onclick="checkAnswer(event)">Answer C</button>
+            <button id="btn-d" class="ans-btn btn" onclick="checkAnswer(event)">Answer D</button>
+        </div>  
+
+        <div id="result-section">
+            <hr />
+            <p id="results"></p>
+        </div>
+            
+             
+        
+    </div>
+    <!--Start of the quiz display-->
+    <div id="start-screen">
+        <h1 class=>Coding Quiz Challenge</h1>
+    <p>Try to answer the following code-related questions within the time
+        limit. <br> Keep in mind that incorrect answers will penalize your
+        score/time by ten seconds!
+    </p>
+    <button id="start-btn" class= "start-btn btn">Start Quiz</button>
+    </div>
+
+    <!--Done-->
+    <div id ="done-screen">
+       <h1>All Done!</h1>
+       <h2 id="final-score">final score</h2>
+       <form action ="submit">Enter Initials</form>
+       <div id="submission">
+       <input type="text">
+       <button id="submit-btn">Submit</button></div>
+    </div>
+    <!--High score screen-->
+    <div id="high-scores-screen">
+        <h1>High Scores</h1>
+        <ol id="high-scores"></ol>
+        <button id="back-btn" class="btn">Go back</button>
+        <button id="clear-scores-btn" class="btn">Clear high scores</button>
+
+    </div>
+
+
+
+
+    <script defer src="./assets/script.js"></script>
+  </body>
+</html>
