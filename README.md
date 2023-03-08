@@ -44,8 +44,5 @@ THEN I can save my initials and score
 
 ## Application Screenshot Preview
 
-## ![Web Api Quiz](./images/Web_Quiz_1.png)
+## ![Web Api Quiz](![image](https://user-images.githubusercontent.com/113931387/223645095-09875596-4aaf-4554-a536-a5dfa667f4da.png))
 
-## ![Web Api Quiz](./images/Web_Quiz_2.png)
-
-## ![Web Api Quiz](./images/Web_Quiz_3.png)
